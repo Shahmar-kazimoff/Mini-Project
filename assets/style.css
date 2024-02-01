@@ -1,0 +1,351 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: #263B5C;
+}
+
+.navbar-full {
+  background-color: transparent;
+  width: 100%;
+}
+
+.button-header {
+  text-decoration: none;
+  color: white;
+  background-color: #F15B43;
+  padding: 20px 30px;
+  position: absolute;
+  white-space: nowrap;
+  width: 200px;
+  right: 80px;
+  display: none;
+}
+
+.nav-second-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+li {
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-contact {
+  white-space: nowrap;
+  color: white !important;
+}
+
+.burger-menu {
+  display: none;
+  position: sticky;
+  z-index: 50;
+  width: 98%;
+  margin: 1%;
+  padding-right: 10px !important;
+  height: 50px;
+  color: white !important;
+  font-weight: bold;
+  background-color: #4C4C4C !important;
+  top: 68px;
+  text-align: end;
+}
+
+@media only screen and (max-width: 600px) {
+  .button-header {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .button-main-nav {
+    display: none;
+  }
+  .button-header {
+    display: block;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .menu-link {
+    padding: 30px 20px;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    background-color: #4C4C4C;
+    width: 98%;
+    margin: 0 1%;
+  }
+  .button-navbar2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .contact-nums {
+    display: none;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.myContainer {
+  max-width: 1480px;
+  margin: 0 auto;
+}
+
+.button-navbar {
+  text-decoration: none;
+  color: white;
+  background-color: #F15B43;
+  padding: 20px 30px;
+  white-space: nowrap;
+  transition: ease;
+  transition-duration: 400ms;
+  border: 1px solid red;
+}
+
+.button-navbar:hover {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.button-first {
+  text-decoration: none;
+  color: white;
+  background-color: #F15B43;
+  padding: 20px 30px;
+  white-space: nowrap;
+  border: 1px solid red;
+  transition: ease;
+  transition-duration: 400ms;
+}
+
+.button-first:hover {
+  background-color: transparent;
+  color: red;
+}
+
+.button-second {
+  text-decoration: none;
+  color: red;
+  background-color: transparent;
+  padding: 20px 30px;
+  white-space: nowrap;
+  border: 1px solid red;
+  transition: ease;
+  transition-duration: 400ms;
+}
+
+.button-second:hover {
+  background-color: red;
+  color: white;
+}
+
+.button-blog {
+  text-decoration: none;
+  color: white;
+  background-color: #65C9BB;
+  padding: 12px 25px;
+  white-space: nowrap;
+  border: 1px solid #65C9BB;
+  transition: ease;
+  transition-duration: 400ms;
+  border-radius: 7px;
+}
+
+.button-blog2 {
+  text-decoration: none;
+  color: gray;
+  background-color: transparent;
+  padding: 12px 25px;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  transition: ease;
+  transition-duration: 400ms;
+}
+
+.button-blog:hover {
+  background-color: transparent;
+  color: #65C9BB;
+  border: 1px solid transparent;
+}
+
+.button-blog2:hover {
+  background-color: #65C9BB;
+  color: white;
+  border: 1px solid transparent;
+}
+
+.image-main {
+  background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: -1;
+  top: -100px;
+  width: 100%;
+  height: 1000px;
+}
+
+.helping-text {
+  position: relative;
+  top: 50%;
+  color: white;
+  padding-left: 100px;
+}
+
+.helping-text1 {
+  font-size: 60px;
+  font-weight: 500;
+  max-width: 600px;
+}
+
+.helping-text2 {
+  font-size: 21px;
+  font-weight: 500;
+  max-width: 600px;
+}
+
+.home-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.home-card {
+  width: 100%;
+}
+
+.home-cards-title {
+  color: black;
+}
+
+.home-card-info {
+  font-size: 17px;
+}
+
+.home-card-numbers {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orange-part {
+  background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/gallery/section-bg1.jpg.webp);
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.small-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.small-card-info {
+  width: 100%;
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.small-card-picture {
+  grid-column: span 2;
+}
+
+.section-map {
+  position: relative;
+  top: -500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .helping-text {
+    width: 100% !important;
+    padding-left: 10px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .image-main {
+    top: -150px;
+  }
+  .helping-text1 {
+    font-size: 50px;
+  }
+  .home-cards {
+    flex-direction: column;
+  }
+  .small-cards {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    grid-template-rows: repeat(1, 1fr);
+    text-align: center;
+  }
+  .small-card-picture {
+    grid-column: span 1;
+    width: 100%;
+    height: 100%;
+  }
+  .section-map {
+    position: relative;
+    top: -50px;
+  }
+}
+a {
+  text-decoration: none !important;
+}
+
+footer {
+  background-color: #263B5C;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.blog-header-image {
+  background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/hero/h2_hero1.jpg.webp);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  position: relative;
+  top: -100px;
+}
+
+.blog-head-infor {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: black;
+  transition: ease;
+  transition-duration: 400ms;
+}
+
+.blog-head-infor:hover {
+  color: #65C9BB;
+}
+
+@media only screen and (max-width: 992px) {
+  .blog-header-image {
+    top: -200px;
+  }
+}/*# sourceMappingURL=style.css.map */

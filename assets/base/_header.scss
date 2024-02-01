@@ -1,0 +1,103 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: #263B5C;
+}
+
+.navbar-full {
+    background-color: transparent;
+    width: 100%;
+}
+
+.button-header {
+    text-decoration: none;
+    color: white;
+    background-color: #F15B43;
+    padding: 20px 30px;
+    position: absolute;
+    white-space: nowrap;
+    width: 200px;
+    right: 80px;
+    display: none;
+}
+
+
+.nav-second-section {
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+li {
+    white-space: nowrap;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-contact {
+    white-space: nowrap;
+    color: white !important;
+}
+
+.burger-menu {
+    display: none;
+    position: sticky;
+    z-index: 50;
+    width: 98%;
+    margin: 1%;
+    padding-right: 10px !important;
+    height: 50px;
+    color: white !important;
+    font-weight: bold;
+    background-color: #4C4C4C !important;
+    top: 68px;
+    text-align: end;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .button-header {
+        display: none !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .button-main-nav {
+        display: none;
+    }
+
+    .button-header {
+        display: block;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .menu-link {
+        padding: 30px 20px;
+        position: absolute;
+        top: 130px;
+        left: 0;
+        background-color: #4C4C4C;
+        width: 98%;
+        ;
+        margin: 0 1%;
+    }
+    .button-navbar2 {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .contact-nums {
+        display: none;
+    }
+}
